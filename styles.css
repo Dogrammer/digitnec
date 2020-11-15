@@ -1,0 +1,333 @@
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(122deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* Navigtaion Bar */
+nav {
+    
+    height: 80px;
+     background: #2c3e50;
+     opacity: 0.5; 
+    /* background-color: #0093E9;
+background-image: linear-gradient(122deg, #0093E9 0%, #80D0C7 100%); */
+
+}
+
+nav img{
+    width: 150px;
+    position: absolute;
+    top: 3px;
+    left: 12%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    font-family: 'Roboto', serif;
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* buttons and icons */
+label #btn,
+label #cancel {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+/* Big Header  */
+.big-header {
+    display: flex;
+}
+
+.big-title {
+    width: 45%;
+}
+
+.big-image {
+    margin-top: 8%;    
+}
+.big-image img {
+    
+    width: 750px;
+    height: 370px;
+}
+.big-header .big-title h1 {
+    margin-left: 25%;
+    margin-top: 17%;
+    font-family: 'Roboto', serif;
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 900;
+
+}
+
+.big-title p {
+    margin-top: 5%;
+    margin-left: 25%;
+    font-family: 'Roboto', serif;
+    color: white;
+
+}
+
+/* About us */
+.about {
+    width: 90%;
+    min-height: 100px;
+    background: white;
+    margin:auto;
+    margin-top: 5%;
+
+    border-radius: 5px 5px 5px 5px;
+}
+
+.about-title {
+    padding-top: 50px;
+    text-align: center;
+    color: #04AAFF;
+    font-size: 40px;
+    font-family: 'Ruluko', serif;
+}
+
+.about-description {
+    padding: 30px;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+.benefits {
+    margin-top: 5%;
+}
+.benefits h1 {
+    text-align: center;
+    color: #04AAFF;
+    font-size: 35px;
+    font-family: 'Ruluko', serif;
+}
+
+.benefit-cards {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.sigurnost-image img,
+.efikasnost-image img,
+.isplativost-image img {
+    width: 400px;
+    height: 250px;
+    
+}
+
+/* Sigurnost */
+.sigurnost-image {
+    width: 40%;
+}
+.sigurnost-description {
+    width: 70%;
+    padding-left: 2%;
+    padding-top: 2%; 
+}
+.sigurnost-image img {
+    margin-left: 28%;
+}
+.sigurnost-description p {
+    margin-left: 8%;
+    margin-top: 1%;
+    color: #6A6A6A;
+    font-size: 18px;
+}
+.sigurnost-description h2 {
+    margin-left: 8%;
+}
+
+/* Efikasnost */
+.efikasnost-image {
+    width: 40%;
+    margin-top: 5%;
+}
+.efikasnost-description {
+    width: 70%; 
+    margin-top: 5%;
+    
+    
+}
+.efikasnost-image img {
+    margin-left: 30%;
+}
+.efikasnost-description h2 {
+    margin-left: 35%;
+}
+.efikasnost-description p {
+    margin-top: 1%;
+    margin-left: 35%;
+    color: #6A6A6A;
+    font-size: 18px;
+}
+
+/* Isplativost */
+.isplativost-image {
+    width: 40%;
+    margin-top: 5%;
+}
+.isplativost-description {
+    width: 70%; 
+    margin-top: 5%;
+}
+.isplativost-image img {
+    margin-left: 28%;
+}
+.isplativost-description p {
+    margin-left: 8%;
+    margin-top: 1%;
+    color: #6A6A6A;
+    font-size: 18px;
+}
+
+.isplativost-description h2 {
+    margin-left: 8%;
+}
+
+
+
+
+
+.sigurnost-description,
+.efikasnost-description,
+.isplativost-description {
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.sigurnost-description p,
+.efikasnost-description p,
+.isplativost-description p {
+    font-family: 'Roboto', serif;
+}
+
+.sigurnost-description h2,
+.efikasnost-description h2,
+.isplativost-description h2 {
+    font-family: 'Ruluko', sans-serif;
+    color: #04AAFF; 
+    font-size: 35px;
+    font-weight: 400;
+}
+
+iframe {
+    margin-left: 20%;
+}
+
+/* responsive part */
+@media (max-width: 1118px) {
+    nav img {
+        left: 8%;
+    }
+}
+
+@media (max-width: 944px) {
+    nav img {
+        left: 6%;
+        top: 20px;
+        width: 130px;
+    }
+    nav ul li a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 860px) {
+    label #btn{
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #34495e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked ~ ul {
+        left:0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+}
+
+
+
+
+
+
+  
