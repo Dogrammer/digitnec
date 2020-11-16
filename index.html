@@ -52,7 +52,7 @@
                 interakciju ne samo između različitih sustava i donosi nove mogućnosti 
                 njihove kontrole, praćenje i pružanje naprednih usluga.
             </p>
-            <iframe width="860" height="415" src="https://www.youtube.com/embed/jDaRPsvvcz4" 
+            <iframe src="https://www.youtube.com/embed/jDaRPsvvcz4" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
             </iframe>
@@ -118,7 +118,17 @@
                     <h4>Kontaktiraj nas</h4>
                 </div>
                 <div class="contact-body">
-
+                    <form action="">
+                        <label for="name">Ime</label>
+                        <input type="text" id="name" name="name" placeholder="Vaše ime..">
+                    
+                        <label for="lname">Email adresa</label>
+                        <input type="email" id="lname" name="lname" placeholder="Vaša email adresa..">
+                        <label for="subject">Predmet</label>
+                        <textarea id="subject" name="subject" placeholder="Napišite nešto.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Pošalji poruku">
+                      </form>
                 </div>
             </div>
         </div>
