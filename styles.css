@@ -838,7 +838,7 @@ input[type=email],input[type=text], select, textarea {
     
 }
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
     nav img {
         left: 5%;
         top: 7px;
