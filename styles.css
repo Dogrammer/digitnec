@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     position: relative;
-    color: white;
+    color: #04AAFF;
     font-size: 16px;
     text-transform: uppercase;
 
@@ -153,6 +153,7 @@ label #cancel {
     margin-top: 3%;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    color: #6A6A6A;
 
 }
 
@@ -368,7 +369,7 @@ iframe {
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
     height: 300px;
-    width: 40%; 
+    width: 33%; 
 }
 
 .contact .info p {
@@ -888,7 +889,7 @@ input[type=email],input[type=text], select, textarea {
 
     .big-image img {
         margin:auto;
-        margin-left: 9%;
+        margin-left: 8%;
         /* width: 325px; */
         /* height: 190px; */
         width: 80%;
