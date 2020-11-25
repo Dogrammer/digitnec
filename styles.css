@@ -157,6 +157,19 @@ label #cancel {
 
 }
 
+.animation {
+    /* width: 100%; */
+    text-align: center;
+    min-height: 100px;
+    /* border: 2px solid green; */
+}
+
+.animation img {
+    width: 60%;
+    height: 480px;
+    /* border: 2px solid red; */
+}
+
 .benefits {
     margin-top: 5%;
 }
@@ -550,9 +563,11 @@ input[type=email],input[type=text], select, textarea {
         display: block;
         margin: 50px 0;
         line-height: 30px;
+        color: white;
     }
     nav ul li a {
         font-size: 20px;
+        color: white;
     }
     #check:checked ~ ul {
         left:0;
@@ -937,6 +952,7 @@ input[type=email],input[type=text], select, textarea {
     .sigurnost-description h2 {
         /* margin-left: 8%; */
         margin: 0;
+        text-align: center;
     }
 
     /* Efikasnost */
@@ -958,7 +974,9 @@ input[type=email],input[type=text], select, textarea {
         margin-left:0;
     }
     .efikasnost-description h2 {
-        margin-left: 40%;
+        /* margin-left: 20%; */
+        text-align: center;
+        margin-left: 0;
     }
     .efikasnost-description p {
         margin-top: 1%;
@@ -992,6 +1010,7 @@ input[type=email],input[type=text], select, textarea {
 
     .isplativost-description h2 {
         margin-left: 0%;
+        text-align: center;
     }
 
 
@@ -1009,6 +1028,7 @@ input[type=email],input[type=text], select, textarea {
     .efikasnost-description p,
     .isplativost-description p {
         font-family: 'Roboto', serif;
+        text-align: center;
     }
 
     .sigurnost-description h2,
@@ -1149,6 +1169,19 @@ input[type=email],input[type=text], select, textarea {
 
     iframe {
         height: 200px;
+    }
+
+    .animation {
+        /* width: 100%; */
+        text-align: center;
+        min-height: 100px;
+        /* border: 2px solid green; */
+    }
+    
+    .animation img {
+        width: 60%;
+        height: 130px;
+        /* border: 2px solid red; */
     }
 
     
