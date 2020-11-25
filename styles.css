@@ -191,7 +191,7 @@ label #cancel {
 .sigurnost-image img,
 .efikasnost-image img,
 .isplativost-image img {
-    width: 400px;
+    width: 300px;
     height: 250px;
     
 }
@@ -209,6 +209,7 @@ label #cancel {
     margin-left: 28%;
 }
 .sigurnost-description p {
+    padding-right: 20%;
     margin-left: 8%;
     margin-top: 1%;
     color: #6A6A6A;
@@ -259,6 +260,7 @@ label #cancel {
 .isplativost-description p {
     margin-left: 8%;
     margin-top: 1%;
+    padding-right: 20%;
     color: #6A6A6A;
     font-size: 18px;
 }
@@ -915,7 +917,7 @@ input[type=email],input[type=text], select, textarea {
     .efikasnost-image img,
     .isplativost-image img {
         /* border: 2px solid green; */
-        width: 270px;
+        /* width: 270px; */
         
         padding: 0;
         margin-right: 2%;
@@ -929,6 +931,7 @@ input[type=email],input[type=text], select, textarea {
         padding-left: 0%;
         margin-left: 0%;
         /* background: black; */
+        text-align: center;
         width: 100%;
         /* border: 2px solid green */
     }
@@ -938,12 +941,14 @@ input[type=email],input[type=text], select, textarea {
         /* border: 2px solid green */
     }
     .benefits .benefit-cards .sigurnost-image img,
-    .benefits .benefit-cards .efikasnot-image img,
+    .benefits .benefit-cards .efikasnost-image img,
     .benefits .benefit-cards .isplativost-image img {
         margin: 0;
-        width: 100%;
+        width: 50%;
+        height: 80%;
     }
     .sigurnost-description p {
+        padding-right: 0;
         margin-left: 0%;
         margin-top: 1%;
         color: #6A6A6A;
@@ -958,6 +963,7 @@ input[type=email],input[type=text], select, textarea {
     /* Efikasnost */
     .efikasnost-image {
         width: 100%;
+        text-align: center;
         margin-top: 5%;
         margin-left:0;
         /* border: 2px solid green */
@@ -990,6 +996,7 @@ input[type=email],input[type=text], select, textarea {
     .isplativost-image {
         width: 100%;
         margin-top: 5%;
+        text-align: center;
         /* border: 2px solid green; */
     }
     .isplativost-description {
@@ -1002,6 +1009,7 @@ input[type=email],input[type=text], select, textarea {
         margin-left: 6%;
     }
     .isplativost-description p {
+        padding-right: 0;
         margin-left: 0%;
         margin-top: 1%;
         color: #6A6A6A;
@@ -1179,8 +1187,8 @@ input[type=email],input[type=text], select, textarea {
     }
     
     .animation img {
-        width: 60%;
-        height: 130px;
+        width: 80%;
+        height: 170px;
         /* border: 2px solid red; */
     }
 
